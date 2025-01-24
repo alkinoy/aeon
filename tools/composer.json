@@ -3,7 +3,6 @@
     "description": "Aeon PHP Calendar - Tools",
     "require-dev": {
         "phpunit/phpunit": "^9.5",
-        "vimeo/psalm": "^4.6",
         "phpstan/phpstan": "^1.1.2",
         "infection/infection": "^0.26.1",
         "phpbench/phpbench": "^1.2.6",

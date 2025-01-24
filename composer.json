@@ -108,9 +108,9 @@
         ],
         "test:mutation": [
             "Composer\\Config::disableProcessTimeout",
-            "tools/vendor/bin/infection -j2"
+            "tools/vendor/bin/infection --threads=max"
         ],
-        "static:analyze": [            
+        "static:analyze": [
             "tools/vendor/bin/phpstan analyze -c phpstan.neon --memory-limit=-1",
             "tools/vendor/bin/php-cs-fixer fix --dry-run"
         ],
