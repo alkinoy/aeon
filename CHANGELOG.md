@@ -1,10 +1,12 @@
-## [Unreleased] - 2025-01-23
+## [Unreleased] - 2025-01-24
 
 ### Added
+- [#219](https://github.com/aeon-php/aeon/pull/219) - **changelog automation** - [@norberttech](https://github.com/norberttech)
 - [#217](https://github.com/aeon-php/aeon/pull/217) - **Add PHP 8.4 support** - [@kristijonasb](https://github.com/kristijonasb)
 - [#187](https://github.com/aeon-php/aeon/pull/187) - **PSR-20 clock adapter** - [@mlebkowski](https://github.com/mlebkowski)
 
 ### Changed
+- [#219](https://github.com/aeon-php/aeon/pull/219) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [#117](https://github.com/aeon-php/aeon/pull/117) - **Bump supported Twig & Doctrine versions** - [@stloyd](https://github.com/stloyd)
 - [#118](https://github.com/aeon-php/aeon/pull/118) - **Cleanup `composer.json` from non-existing packages & autoloader paths** - [@stloyd](https://github.com/stloyd)
 - [#119](https://github.com/aeon-php/aeon/pull/119) - **Update GH Actions to supported v3** - [@stloyd](https://github.com/stloyd)
@@ -13,6 +15,9 @@
 - [134ba9](https://github.com/aeon-php/aeon/commit/134ba96faad33ec741aea7d886fd2a69a64e2177) - **LeapSeconds.php** - [@norberttech](https://github.com/norberttech)
 - [abdc13](https://github.com/aeon-php/aeon/commit/abdc1395c7e2393577d5e34ffe1ea4ed875db0ee) - **dependencies** - [@norberttech](https://github.com/norberttech)
 - [4704b0](https://github.com/aeon-php/aeon/commit/4704b02ff17b3cbd490f16a8926a94b7f0db2e59) - **dependencies and fixed leap seconds expiration date** - [@norberttech](https://github.com/norberttech)
+
+### Removed
+- [#219](https://github.com/aeon-php/aeon/pull/219) - **psalm** - [@norberttech](https://github.com/norberttech)
 
 ## [1.0.10] - 2023-12-18
 
@@ -118,7 +123,7 @@
 - [13a82a](https://github.com/aeon-php/aeon/commit/13a82a680c3ab06f88a9bcdc15ae6df4140b201b) - **mutation score badge** - [@norberttech](https://github.com/norberttech)
 - [8c7c73](https://github.com/aeon-php/aeon/commit/8c7c73bad7b141befbdaaee3b887cb5339e85deb) - **mutation score badge** - [@norberttech](https://github.com/norberttech)
 - [1bdc34](https://github.com/aeon-php/aeon/commit/1bdc34634074b427106dbc357b668d4044e65084) - **infection badge configuration code** - [@norberttech](https://github.com/norberttech)
-- [8d5e4c](https://github.com/aeon-php/aeon/commit/8d5e4ced8d44d38a16abe615f65146a8a0f67b66) - **CS fixer to benchmarks code, added new benchmark  (#43)** - [@norberttech](https://github.com/norberttech)
+- [8d5e4c](https://github.com/aeon-php/aeon/commit/8d5e4ced8d44d38a16abe615f65146a8a0f67b66) - **CS fixer to benchmarks code, added new benchmark (#43)** - [@norberttech](https://github.com/norberttech)
 - [f4bb7e](https://github.com/aeon-php/aeon/commit/f4bb7e9f245f58a80d186b81975852f95e5968a4) - **Year/Month/Day manipulation and comparison methods (#37)** - [@norberttech](https://github.com/norberttech)
 - [fcc56b](https://github.com/aeon-php/aeon/commit/fcc56bb5190085cdb3a85bc5f7b6562a7c25124f) - **refernce to docs into README** - [@norberttech](https://github.com/norberttech)
 - [da0770](https://github.com/aeon-php/aeon/commit/da07703d5c025be1da16229ac4d1d243926e297c) - **changlog file** - [@norberttech](https://github.com/norberttech)
@@ -230,7 +235,7 @@
 - [459cb2](https://github.com/aeon-php/aeon/commit/459cb26be1be875f275c41c5ab24729059fe1623) - **phive with another composer.json (#46)** - [@norberttech](https://github.com/norberttech)
 - [a1a7a7](https://github.com/aeon-php/aeon/commit/a1a7a7852e24087557fb7ac47cacfa25e602b4c6) - **php required version constraint** - [@norberttech](https://github.com/norberttech)
 - [79113d](https://github.com/aeon-php/aeon/commit/79113d7aafdb01ac4a3f96d85750eef6215cdd1d) - **Feature/upgrade (#78)** - [@norberttech](https://github.com/norberttech)
-- [ebc5f8](https://github.com/aeon-php/aeon/commit/ebc5f8a497c320fc4381b9c2cb96a97f2c6ab53a) - **Date Time Iterators  (#121)** - [@norberttech](https://github.com/norberttech)
+- [ebc5f8](https://github.com/aeon-php/aeon/commit/ebc5f8a497c320fc4381b9c2cb96a97f2c6ab53a) - **Date Time Iterators (#121)** - [@norberttech](https://github.com/norberttech)
 - [6ca5fe](https://github.com/aeon-php/aeon/commit/6ca5fe6c39398489f7d10fb85ad188f249bd8f61) - **array with Iterators in Months and Days collections (#117)** - [@norberttech](https://github.com/norberttech)
 - [af893b](https://github.com/aeon-php/aeon/commit/af893bd17323df04285c5d58460b15d6891e7172) - **Improved ETL sync (#136)** - [@norberttech](https://github.com/norberttech)
 - [5aa917](https://github.com/aeon-php/aeon/commit/5aa917f050c58b8289deedab8f8afbb544b7e1a2) - **Bug/empty holidays es (#133)** - [@norberttech](https://github.com/norberttech)
@@ -284,7 +289,7 @@
 - [485001](https://github.com/aeon-php/aeon/commit/4850010a8318b33deab2c6dcfb9e7b198096de12) - **DayValue Set collection (#68)** - [@norberttech](https://github.com/norberttech)
 - [bd0abc](https://github.com/aeon-php/aeon/commit/bd0abca51ebbe6091b1c4789795b7323261618a0) - **resolves #20 (#21)** - [@unixslayer](https://github.com/unixslayer)
 - [7f26b2](https://github.com/aeon-php/aeon/commit/7f26b2c9b31f6a6372528a21c6f16258834447e3) - **Unitifed Day/Month/Year and DateTime interval methods (#67)** - [@norberttech](https://github.com/norberttech)
-- [532a12](https://github.com/aeon-php/aeon/commit/532a126a185e588cbfe85140d49e073582d95a01) - **TimeUnit - modulo  (#63)** - [@norberttech](https://github.com/norberttech)
+- [532a12](https://github.com/aeon-php/aeon/commit/532a126a185e588cbfe85140d49e073582d95a01) - **TimeUnit - modulo (#63)** - [@norberttech](https://github.com/norberttech)
 - [cf0c81](https://github.com/aeon-php/aeon/commit/cf0c81d8a5ad6a48cf79a309682bc45565b5200b) - **Prepared changelog for 0.6.0 release & updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [11ca44](https://github.com/aeon-php/aeon/commit/11ca44c6c7d228f4f6146126d8f8ccc6a5f65fe4) - **Use pretty print for json dumped holiday data (#32)** - [@norberttech](https://github.com/norberttech)
 - [a44ced](https://github.com/aeon-php/aeon/commit/a44cedcb98b762c9a6e02a87f051aa1760fa6e88) - **Fixes regular business day is open & working hours next business day (#10)** - [@norberttech](https://github.com/norberttech)
@@ -307,9 +312,9 @@
 - [ababd1](https://github.com/aeon-php/aeon/commit/ababd10fed3666a26a5ad9d32f552c7f97f29ec2) - **error level to totallyTyped in psalm config** - [@norberttech](https://github.com/norberttech)
 - [bac7e8](https://github.com/aeon-php/aeon/commit/bac7e8087e18445ddce1cac57b4e1375d79a4a39) - **Increased required infection MSI % to 100% (#47)** - [@norberttech](https://github.com/norberttech)
 - [ca1ebf](https://github.com/aeon-php/aeon/commit/ca1ebffdc929d9f91c826b372c8360d76cfaa454) - **Optimize datetime static constructor (#46)** - [@norberttech](https://github.com/norberttech)
-- [bd5bea](https://github.com/aeon-php/aeon/commit/bd5beae31d4e01e5e24b63c9bc448bfe3d92049d) - **Implementation of  static create method for Day and Month classes #41 (#45)** - [@eamirgh](https://github.com/eamirgh)
+- [bd5bea](https://github.com/aeon-php/aeon/commit/bd5beae31d4e01e5e24b63c9bc448bfe3d92049d) - **Implementation of static create method for Day and Month classes #41 (#45)** - [@eamirgh](https://github.com/eamirgh)
 - [991a06](https://github.com/aeon-php/aeon/commit/991a061afaf0d1c5bbec0952f42302864eff1008) - **TimePeriod::overlaps performance improvements (#44)** - [@norberttech](https://github.com/norberttech)
-- [85a80c](https://github.com/aeon-php/aeon/commit/85a80c956a4304ed4d32320163a1d0ec2b6bc98a) - **Performance optimizations  (#42)** - [@norberttech](https://github.com/norberttech)
+- [85a80c](https://github.com/aeon-php/aeon/commit/85a80c956a4304ed4d32320163a1d0ec2b6bc98a) - **Performance optimizations (#42)** - [@norberttech](https://github.com/norberttech)
 - [aa821f](https://github.com/aeon-php/aeon/commit/aa821ff639fbced5bf21dad67dc8e913cbbcbdb4) - **created difference betweenDays static method issue #34 (#40)** - [@eamirgh](https://github.com/eamirgh)
 - [0c8577](https://github.com/aeon-php/aeon/commit/0c85777c56e97156355e5bf166428c6565ee8688) - **Renamed equals to isEqual method fix issue #38 (#39)** - [@eamirgh](https://github.com/eamirgh)
 - [ae4f8f](https://github.com/aeon-php/aeon/commit/ae4f8f0db78a9e51b4f5075ea50364bb8f681391) - **Locked aeon-php/calendar dependency to ^0.2.0** - [@norberttech](https://github.com/norberttech)
@@ -321,7 +326,7 @@
 - [cb77eb](https://github.com/aeon-php/aeon/commit/cb77eb602c917ad6fd07b0e909ccabbb5392e609) - **Move everythig to Aeon/Doctrine namespace** - [@norberttech](https://github.com/norberttech)
 - [b95f40](https://github.com/aeon-php/aeon/commit/b95f40b4374390e5dd4f3374955651d32880ea5c) - **Adjusted twig extension to latest release of calendar** - [@norberttech](https://github.com/norberttech)
 - [6c8af0](https://github.com/aeon-php/aeon/commit/6c8af00402b2b8e76c4da692b2ca76a6ce36f165) - **Improved toISO8601 DateTime conversion (#31)** - [@norberttech](https://github.com/norberttech)
-- [a15f00](https://github.com/aeon-php/aeon/commit/a15f00e31ea9cd7612bc19b331553dc0a48dd173) - **Use bcmath to compare TimeUnits  (#30)** - [@norberttech](https://github.com/norberttech)
+- [a15f00](https://github.com/aeon-php/aeon/commit/a15f00e31ea9cd7612bc19b331553dc0a48dd173) - **Use bcmath to compare TimeUnits (#30)** - [@norberttech](https://github.com/norberttech)
 - [d2b0eb](https://github.com/aeon-php/aeon/commit/d2b0ebbccb7b1be1dadf053a1784809c62813318) - **Adjusted phpdoc_align CS rule** - [@norberttech](https://github.com/norberttech)
 - [cb95e5](https://github.com/aeon-php/aeon/commit/cb95e5815ca81728d5dfb2b711261267afb1ffda) - **Make sure that DateTime methods endOfDay, noon and midnight dont reset the timezone (#25)** - [@norberttech](https://github.com/norberttech)
 - [4db1f6](https://github.com/aeon-php/aeon/commit/4db1f6e2336ccf2f67b660bec131f8143621a47e) - **Initial commit** - [@norberttech](https://github.com/norberttech)
